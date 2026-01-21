@@ -33,3 +33,10 @@ if (names.includes("Hari")) {
 const nestedArrays=[10, [20, 30], [40, [50, 60]]];
 console.log(nestedArrays.flat(1));
 console.log(nestedArrays.flat(2));
+
+
+//Q.6. Combining Methods
+const originalArray= [5,6,7,8];
+const newArray=originalArray.slice(0,3).concat(originalArray.slice(4));
+console.log("Original :", originalArray);
+console.log("New:",newArray );
