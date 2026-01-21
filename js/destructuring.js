@@ -50,4 +50,11 @@ const{
 } = students;
 console.log(NM);
 
+//Q.7. Function Parameter Destructuring
+function showStudent({ name, age }) {
+  console.log("Name:", name);
+  console.log("Age:", age);
+}
+
+showStudent(student);
 
