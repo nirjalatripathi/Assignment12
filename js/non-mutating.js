@@ -19,3 +19,12 @@ console.log ("Combined values:", combined);
 let values=["cat", "rabbit","mouse"];
 console.log(values.join(","));
 console.log(values.join("_"));
+
+//Q.4. includes()
+let names=["Ram", "Shyam", "Hari"];
+if (names.includes("Hari")) {
+    console.log("Hari is present");
+
+} else{
+    console.log("Hari is not present");
+}

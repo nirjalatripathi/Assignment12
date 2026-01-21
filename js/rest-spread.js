@@ -18,7 +18,7 @@ console.log(merged);
 
 //Q.4. Copying an Array
 const originalArray= [5,6,7];
-let copiedArray=[...originalArray];
+const copiedArray=[...originalArray];
 copiedArray.push (8);
 console.log (originalArray);
 console.log(copiedArray);
