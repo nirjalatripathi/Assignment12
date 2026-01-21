@@ -27,3 +27,8 @@ const student={
 };
 const {name, age, city}= student;
 console.log(name, age, city);
+
+//Q.5. Renaming Variables
+const {name: firstName, course: subjectCourse}= student;
+console.log(firstName);
+
