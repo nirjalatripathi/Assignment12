@@ -15,8 +15,15 @@ console.log(forth);
 
 //Q.3. Default Values
 const num=[7];
-const [x, y=15]= num;
+const [x, y=15]= num; //Value of y (second value) doesnot exist so default value is used
 console.log(x);
 console.log(y);
 
-
+// Q.4. Object Destructuring
+const student={
+    name: "Nirjala",
+    age:19,
+    city:"Kathmandu"
+};
+const {name, age, city}= student;
+console.log(name, age, city);
