@@ -7,5 +7,10 @@ const [first, second]= numbers;
 console.log("First value:", first);
 console.log("second value:", second);
 
+//Q.2. Skipping values
+const number = [1,2,3,4,5];
+const [ , , third, forth, ] = number;
+console.log(third);
+console.log(forth);
 
 
