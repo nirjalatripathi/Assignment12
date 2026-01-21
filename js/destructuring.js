@@ -13,4 +13,10 @@ const [ , , third, forth, ] = number;
 console.log(third);
 console.log(forth);
 
+//Q.3. Default Values
+const num=[7];
+const [x, y=15]= num;
+console.log(x);
+console.log(y);
+
 
