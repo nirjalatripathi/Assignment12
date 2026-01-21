@@ -16,15 +16,20 @@ console.log ("Combined values:", combined);
 
 
 //Q.3. join()
-let values=["cat", "rabbit","mouse"];
+const values=["cat", "rabbit","mouse"];
 console.log(values.join(","));
 console.log(values.join("_"));
 
 //Q.4. includes()
-let names=["Ram", "Shyam", "Hari"];
+const names=["Ram", "Shyam", "Hari"];
 if (names.includes("Hari")) {
     console.log("Hari is present");
 
 } else{
     console.log("Hari is not present");
 }
+
+//Q.5. flat()
+const nestedArrays=[10, [20, 30], [40, [50, 60]]];
+console.log(nestedArrays.flat(1));
+console.log(nestedArrays.flat(2));
