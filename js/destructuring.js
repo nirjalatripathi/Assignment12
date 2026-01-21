@@ -32,3 +32,22 @@ console.log(name, age, city);
 const {name: firstName, course: subjectCourse}= student;
 console.log(firstName);
 
+//Q.6. Nested Destructuring
+const students={
+    fullname:"Nirjala Tripathi",
+    marks: {
+        NM: 45,
+        DSA:50,
+    },
+practical:{
+    NM: 20,
+    DSA: 30,
+}
+};
+const {fullname}= students;
+const{
+    practical:{NM}
+} = students;
+console.log(NM);
+
+
