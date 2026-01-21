@@ -13,3 +13,9 @@ const combined=a.concat(b);
 console.log("Value of A: ", a);
 console.log("Value of B:", b);
 console.log ("Combined values:", combined);
+
+
+//Q.3. join()
+let values=["cat", "rabbit","mouse"];
+console.log(values.join(","));
+console.log(values.join("_"));
