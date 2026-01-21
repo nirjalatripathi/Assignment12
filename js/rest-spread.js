@@ -33,3 +33,14 @@ let newProperties={
     Faculty:"CSIT"
 };
 console.log(newProperties);
+
+//Q.6. Updating Object Properties
+const user={
+    id : 101,
+    name:"Nirjala",
+    age:19
+};
+const UpdateUser= {...user,
+    id:108
+};
+console.log(UpdateUser);
