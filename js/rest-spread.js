@@ -17,3 +17,10 @@ const arr2=[4,5,6];
 const merged=[...arr1, ...arr2];
 console.log(merged);
 
+// Copying an Array
+const originalArray= [5,6,7];
+let copiedArray=[...originalArray];
+copiedArray.push (8);
+console.log (originalArray);
+console.log(copiedArray);
+
